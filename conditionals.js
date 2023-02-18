@@ -22,3 +22,10 @@ else if (temperature < 5) {
 else {
     console.log("bring anything")
 }
+
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+ console.log("you are eligible to vote")
+}
